@@ -1,0 +1,31 @@
+# Site settings
+title: 'Achiiive Inc.'
+email: 'contact@achiiive.com'
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "achiiive.com" # the base hostname & protocol for your site
+
+# User setting
+owner: 'Achiiive inc.'
+email: 'contact@achiiive.com'
+facebook_username:
+twitter_username:
+github_username:
+address:
+  - line: 5-33-3 Sendagaya, Shibuya
+  - line: Tokyo, Japan
+  # Feel free to add more lines here
+telephone:
+copyright: 'Achiiive Inc.'
+
+# API settings
+# google_api_key:
+
+# Build settings
+markdown: kramdown
+exclude: [vendor, Gemfile, Gemfile.lock, README.md]
+server: true
+auto: true
